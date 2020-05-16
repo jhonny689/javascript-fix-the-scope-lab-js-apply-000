@@ -16,10 +16,9 @@ function yourAnimal() {
 }
 
 function add2(n) {
-  return n + two
-
-  // Feel free to move things around!
+  // variables and constants should be declared before the return.
   const two = 2
+  return n + two
 }
 
 var funkyFunction = function() {
